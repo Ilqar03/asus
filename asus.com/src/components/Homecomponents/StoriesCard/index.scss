@@ -1,0 +1,52 @@
+.StoriesCardsec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .StoriesCard {
+        width: 90%;
+        height: 100%;
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 300px;
+                height: 400px;
+                margin-top: 30px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                .cardimg {
+                    width: 90%;
+                    height: 60%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .cardelements {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 90%;
+                    height: 35%;
+                    h3{
+                        color: red;
+
+                    }
+                    p{
+                        font-weight: 600;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
